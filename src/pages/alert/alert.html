@@ -1,0 +1,22 @@
+<ion-header>
+    <ion-navbar>
+      <button menuToggle *ngIf="!selectedItem">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Alertas</ion-title>
+    </ion-navbar>
+  </ion-header>
+
+
+<ion-content padding>
+  <div>
+    Las Alertas son una forma propicia de ofrecer al usuario 
+    la posiblidad de escoger una acción especifica o una lista de ellas
+  </div> 
+  <hr> 
+  <div>
+      <button ion-button block color="dark" block (click)="doBasicAlert()">Alerta Básica</button>
+      <button ion-button block color="secondary" block (click)="doPromptAlert()">Alerta Prompt</button>
+      <button ion-button block color="primary" block (click)="doConfirmationAlert()">Alerta Confirmación</button>
+  </div>    
+</ion-content>
