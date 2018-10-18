@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ErrorHandler } from '@angular/core';
-import { IonicApp, IonicModule, IonicErrorHandler, ActionSheetController } from 'ionic-angular';
+import { IonicApp, IonicModule, IonicErrorHandler, ActionSheetController } from 'ionic-angular'; //esta
 import { MyApp } from './app.component';
 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
-import { ExamplerPage } from '../pages/exampler/exampler'; 
-import { AlertPage } from '../pages/alert/alert'
+import { ExamplerPage } from '../pages/exampler/exampler';  //esta
+import { AlertPage } from '../pages/alert/alert'            //esta
 
 import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
+import { SplashScreen } from '@ionic-native/splash-screen'; //esta
 import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
 
 @NgModule({
@@ -19,9 +19,9 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
-    ExamplerPage,
-    AlertPage,
-    ActionSheetPage
+    ExamplerPage, //esta
+    AlertPage,    //esta
+    ActionSheetPage //esta
   ],
   imports: [
     BrowserModule,
@@ -33,9 +33,9 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
-    ExamplerPage,
-    AlertPage,
-    ActionSheetPage
+    ExamplerPage, //esta
+    AlertPage,    //esta
+    ActionSheetPage //esta
   ],
   providers: [
     StatusBar,
