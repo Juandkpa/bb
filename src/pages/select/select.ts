@@ -27,8 +27,7 @@ export class SelectPage {
   initializeItems() {
     this.items = [
       'Amsterdam',
-      'Bogota',
-      ...
+      'Bogota'
     ];
   }
 
