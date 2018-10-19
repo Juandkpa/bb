@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, ActionSheet } from 'ionic-angular';
 import { AlertPage } from '../alert/alert';
 import { ActionSheetPage } from '../action-sheet/action-sheet';
+import { SelectPage } from '../select/select';
 
 
 @Component({
@@ -21,8 +22,13 @@ export class ExamplerPage {
       },
       {
         title: 'ActionSheets',
-        icon:  'sheet',
+        icon:  'bluetooth',
         page:   ActionSheetPage
+      },
+      {
+        title: 'Select',
+        icon:  'bluetooth',
+        page:   SelectPage
       }
     ];
 

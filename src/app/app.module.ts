@@ -13,6 +13,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen'; //esta
 import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
 
+import { SelectPage } from '../pages/select/select';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -21,7 +23,8 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
     ListPage,
     ExamplerPage, //esta
     AlertPage,    //esta
-    ActionSheetPage //esta
+    ActionSheetPage, //esta
+    SelectPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
     ListPage,
     ExamplerPage, //esta
     AlertPage,    //esta
-    ActionSheetPage //esta
+    ActionSheetPage, //esta
+    SelectPage
   ],
   providers: [
     StatusBar,
