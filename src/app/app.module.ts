@@ -7,7 +7,8 @@ import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 import { ExamplerPage } from '../pages/exampler/exampler'; 
-import { AlertPage } from '../pages/alert/alert'
+import { AlertPage } from '../pages/alert/alert';
+import { GridPage } from '../pages/grid/grid';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,7 +22,8 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
     ListPage,
     ExamplerPage,
     AlertPage,
-    ActionSheetPage
+    ActionSheetPage,
+    GridPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,9 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
     ListPage,
     ExamplerPage,
     AlertPage,
-    ActionSheetPage
+    ActionSheetPage,
+    GridPage
+    
   ],
   providers: [
     StatusBar,

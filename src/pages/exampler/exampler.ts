@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, ActionSheet } from 'ionic-angular';
 import { AlertPage } from '../alert/alert';
 import { ActionSheetPage } from '../action-sheet/action-sheet';
+import { GridPage } from '../grid/grid';
 
 
 @Component({
@@ -23,6 +24,11 @@ export class ExamplerPage {
         title: 'ActionSheets',
         icon:  'sheet',
         page:   ActionSheetPage
+      },
+      {
+        title: 'Grid',
+        icon: 'build',
+        page: GridPage
       }
     ];
 
