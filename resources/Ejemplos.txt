@@ -1,0 +1,4 @@
+Hola, en este link se pueden encontrar mas ejemplos de las herramientas para ionic
+y de donde se tomo el ejemplo para el ejercicio
+
+https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages
