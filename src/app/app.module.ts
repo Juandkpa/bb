@@ -35,7 +35,7 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
     ListPage,
     ExamplerPage, //esta
     AlertPage,    //esta
-    ActionSheetPage //esta
+    ActionSheetPage //est
   ],
   providers: [
     StatusBar,
