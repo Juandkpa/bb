@@ -8,6 +8,8 @@ import { SlidePage } from '../slide/slide';
 
 import { TabsPage } from '../tabs/tabs';
 
+import { SearchPage} from '../search/search';
+
 @Component({
   selector: 'page-exampler',
   templateUrl: 'exampler.html',
@@ -47,6 +49,11 @@ export class ExamplerPage {
         title: 'Tabs',        
         icon: 'alarm',
         page: TabsPage
+      },
+      {
+        title: 'Search',        
+        icon: 'build',
+        page: SearchPage
       }
     ];
 

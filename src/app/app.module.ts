@@ -23,6 +23,8 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
 
 import { SelectPage } from '../pages/select/select';
 
+import { SearchPage } from '../pages/search/search';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -42,7 +44,8 @@ import { SelectPage } from '../pages/select/select';
     TabsPage,
     Page1Page,
     Page2Page,
-    Page3Page
+    Page3Page,
+    SearchPage
   ],
   imports: [
     BrowserModule,
@@ -67,7 +70,8 @@ import { SelectPage } from '../pages/select/select';
     TabsPage,
     Page1Page,
     Page2Page,
-    Page3Page
+    Page3Page,
+    SearchPage
 
   ],
   providers: [
