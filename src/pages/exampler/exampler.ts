@@ -26,7 +26,7 @@ export class ExamplerPage {
       },
       {
         title: 'Segment',
-        icon:  'segment',
+        icon:  'more',
         page:   SegmentPage
       }
     ];
