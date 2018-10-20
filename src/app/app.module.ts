@@ -20,6 +20,7 @@ import { Page3Page } from '../pages/page3/page3';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen'; //esta
 import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
+import { SeielPage } from '../pages/seiel/seiel';
 
 import { SelectPage } from '../pages/select/select';
 
@@ -45,7 +46,8 @@ import { SearchPage } from '../pages/search/search';
     Page1Page,
     Page2Page,
     Page3Page,
-    SearchPage
+    SearchPage,
+    SeielPage
   ],
   imports: [
     BrowserModule,
@@ -71,8 +73,8 @@ import { SearchPage } from '../pages/search/search';
     Page1Page,
     Page2Page,
     Page3Page,
-    SearchPage
-
+    SearchPage,
+    SeielPage
   ],
   providers: [
     StatusBar,

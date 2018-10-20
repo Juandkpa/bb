@@ -1,0 +1,28 @@
+<!--
+  Generated template for the SeielPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>seiel</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-icon name="logo-twitter" item-start></ion-icon>
+    Following
+    <ion-badge item-end>{{numF}}</ion-badge>
+  </ion-item>
+
+  <ion-item *ngFor="let u of users"> 
+    <ion-icon name="paper-plane" item-start></ion-icon>
+    {{u.user}}
+    <ion-badge item-end ><button ion-button  (click)="follow($event, u.user)">Follow</button></ion-badge>
+  </ion-item>
+</ion-content>

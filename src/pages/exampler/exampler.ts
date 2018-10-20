@@ -5,7 +5,7 @@ import { ActionSheetPage } from '../action-sheet/action-sheet';
 import { GridPage } from '../grid/grid';
 import { SelectPage } from '../select/select';
 import { SlidePage } from '../slide/slide';
-
+import { SeielPage } from '../seiel/seiel';
 import { TabsPage } from '../tabs/tabs';
 
 import { SearchPage} from '../search/search';
@@ -54,6 +54,11 @@ export class ExamplerPage {
         title: 'Search',        
         icon: 'build',
         page: SearchPage
+      },
+      {
+        title: 'Seiel',
+        icon:  'beer',
+        page:   SeielPage
       }
     ];
 
