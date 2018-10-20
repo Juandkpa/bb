@@ -5,6 +5,7 @@ import { ActionSheetPage } from '../action-sheet/action-sheet';
 import { GridPage } from '../grid/grid';
 import { SelectPage } from '../select/select';
 import { SlidePage } from '../slide/slide';
+import { SearchPage } from '../search/search';
 
 
 @Component({
@@ -40,6 +41,12 @@ export class ExamplerPage {
       {  title: 'Slides',
         icon:  'heart',
         page:   SlidePage
+       
+      },
+      {
+        title: 'Search',
+        icon:  'build',
+        page:   SearchPage
       }
     ];
 

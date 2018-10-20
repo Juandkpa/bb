@@ -19,18 +19,28 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
 
 import { SelectPage } from '../pages/select/select';
 
+import { SearchPage } from '../pages/search/search';
+
 @NgModule({
   declarations: [
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
+<<<<<<< Updated upstream
     ExamplerPage,
     AlertPage,
     ActionSheetPage,
     GridPage,
     SelectPage,
     SlidePage
+=======
+    ExamplerPage, //esta
+    AlertPage,    //esta
+    ActionSheetPage, //esta
+    SelectPage,
+    SearchPage
+>>>>>>> Stashed changes
   ],
   imports: [
     BrowserModule,
@@ -42,12 +52,20 @@ import { SelectPage } from '../pages/select/select';
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
+<<<<<<< Updated upstream
     ExamplerPage,
     AlertPage,
     ActionSheetPage,
     GridPage,
     SelectPage,
     SlidePage
+=======
+    ExamplerPage, //esta
+    AlertPage,    //esta
+    ActionSheetPage, //esta
+    SelectPage,
+    SearchPage
+>>>>>>> Stashed changes
   ],
   providers: [
     StatusBar,
