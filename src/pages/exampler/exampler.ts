@@ -3,7 +3,7 @@ import { NavController, NavParams, ActionSheet } from 'ionic-angular';
 import { AlertPage } from '../alert/alert';
 import { ActionSheetPage } from '../action-sheet/action-sheet';
 import { SelectPage } from '../select/select';
-
+import { TabsPage } from '../tabs/tabs';
 
 @Component({
   selector: 'page-exampler',
@@ -29,6 +29,11 @@ export class ExamplerPage {
         title: 'Select',
         icon:  'bluetooth',
         page:   SelectPage
+      },
+      {
+        title: 'Tabs',        
+        icon: 'alarm',
+        page: TabsPage
       }
     ];
 

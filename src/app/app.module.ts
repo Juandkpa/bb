@@ -7,7 +7,11 @@ import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 import { ExamplerPage } from '../pages/exampler/exampler';  //esta
-import { AlertPage } from '../pages/alert/alert'            //esta
+import { AlertPage } from '../pages/alert/alert';            //esta
+import {TabsPage} from '../pages/tabs/tabs';
+import { Page1Page } from '../pages/page1/page1';
+import { Page2Page } from '../pages/page2/page2';
+import { Page3Page } from '../pages/page3/page3'; 
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen'; //esta
@@ -24,7 +28,11 @@ import { SelectPage } from '../pages/select/select';
     ExamplerPage, //esta
     AlertPage,    //esta
     ActionSheetPage, //esta
-    SelectPage
+    SelectPage,
+    TabsPage,
+    Page1Page,
+    Page2Page,
+    Page3Page
   ],
   imports: [
     BrowserModule,
@@ -39,7 +47,12 @@ import { SelectPage } from '../pages/select/select';
     ExamplerPage, //esta
     AlertPage,    //esta
     ActionSheetPage, //esta
-    SelectPage
+    SelectPage,
+    TabsPage,
+    Page1Page,
+    Page2Page,
+    Page3Page
+
   ],
   providers: [
     StatusBar,
