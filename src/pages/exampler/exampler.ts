@@ -6,6 +6,7 @@ import { GridPage } from '../grid/grid';
 import { SelectPage } from '../select/select';
 import { SlidePage } from '../slide/slide';
 
+import { TabsPage } from '../tabs/tabs';
 
 @Component({
   selector: 'page-exampler',
@@ -37,9 +38,15 @@ export class ExamplerPage {
         icon:  'bluetooth',
         page:   SelectPage 
       },
-      {  title: 'Slides',
+      {  
+        title: 'Slides',
         icon:  'heart',
-        page:   SlidePage
+        page:   SlidePage       
+      },
+      {
+        title: 'Tabs',        
+        icon: 'alarm',
+        page: TabsPage
       }
     ];
 

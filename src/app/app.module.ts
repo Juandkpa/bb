@@ -12,6 +12,10 @@ import { ExamplerPage } from '../pages/exampler/exampler';
 import { AlertPage } from '../pages/alert/alert';
 import { GridPage } from '../pages/grid/grid';
 import { SlidePage }    from '../pages/slide/slide';
+import {TabsPage} from '../pages/tabs/tabs';
+import { Page1Page } from '../pages/page1/page1';
+import { Page2Page } from '../pages/page2/page2';
+import { Page3Page } from '../pages/page3/page3'; 
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen'; //esta
@@ -30,7 +34,15 @@ import { SelectPage } from '../pages/select/select';
     ActionSheetPage,
     GridPage,
     SelectPage,
-    SlidePage
+    SlidePage,
+    ExamplerPage, //esta
+    AlertPage,    //esta
+    ActionSheetPage, //esta
+    SelectPage,
+    TabsPage,
+    Page1Page,
+    Page2Page,
+    Page3Page
   ],
   imports: [
     BrowserModule,
@@ -47,7 +59,16 @@ import { SelectPage } from '../pages/select/select';
     ActionSheetPage,
     GridPage,
     SelectPage,
-    SlidePage
+    SlidePage,
+    ExamplerPage, //esta
+    AlertPage,    //esta
+    ActionSheetPage, //esta
+    SelectPage,
+    TabsPage,
+    Page1Page,
+    Page2Page,
+    Page3Page
+
   ],
   providers: [
     StatusBar,
