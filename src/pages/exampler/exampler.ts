@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, ActionSheet } from 'ionic-angular';
 import { AlertPage } from '../alert/alert';
 import { ActionSheetPage } from '../action-sheet/action-sheet';
+import { SeielPage } from '../seiel/seiel';
 
 
 @Component({
@@ -23,6 +24,11 @@ export class ExamplerPage {
         title: 'ActionSheets',
         icon:  'sheet',
         page:   ActionSheetPage
+      },
+      {
+        title: 'Seiel',
+        icon:  'beer',
+        page:   SeielPage
       }
     ];
 

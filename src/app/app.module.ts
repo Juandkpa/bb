@@ -12,6 +12,7 @@ import { AlertPage } from '../pages/alert/alert'
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
+import { SeielPage } from '../pages/seiel/seiel';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
     ListPage,
     ExamplerPage,
     AlertPage,
-    ActionSheetPage
+    ActionSheetPage,
+    SeielPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
     ListPage,
     ExamplerPage,
     AlertPage,
-    ActionSheetPage
+    ActionSheetPage,
+    SeielPage
   ],
   providers: [
     StatusBar,
