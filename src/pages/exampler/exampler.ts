@@ -3,6 +3,7 @@ import { NavController, NavParams, ActionSheet } from 'ionic-angular';
 import { AlertPage } from '../alert/alert';
 import { ActionSheetPage } from '../action-sheet/action-sheet';
 import { GridPage } from '../grid/grid';
+import { SelectPage } from '../select/select';
 
 
 @Component({
@@ -22,13 +23,18 @@ export class ExamplerPage {
       },
       {
         title: 'ActionSheets',
-        icon:  'sheet',
+        icon:  'bluetooth',
         page:   ActionSheetPage
       },
       {
         title: 'Grid',
         icon: 'build',
         page: GridPage
+      },
+      {
+        title: 'Select',
+        icon:  'bluetooth',
+        page:   SelectPage
       }
     ];
 
