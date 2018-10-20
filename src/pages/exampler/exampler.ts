@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, ActionSheet } from 'ionic-angular';
 import { AlertPage } from '../alert/alert';
 import { ActionSheetPage } from '../action-sheet/action-sheet';
-
+import { SegmentPage } from '../segment/segment';
 
 @Component({
   selector: 'page-exampler',
@@ -23,6 +23,11 @@ export class ExamplerPage {
         title: 'ActionSheets',
         icon:  'sheet',
         page:   ActionSheetPage
+      },
+      {
+        title: 'Segment',
+        icon:  'segment',
+        page:   SegmentPage
       }
     ];
 
