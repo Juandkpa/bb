@@ -4,8 +4,7 @@ import { AlertPage } from '../alert/alert';
 import { ActionSheetPage } from '../action-sheet/action-sheet';
 import { GridPage } from '../grid/grid';
 import { SelectPage } from '../select/select';
-
-
+import { DateTimePage } from '../date-time/date-time';
 @Component({
   selector: 'page-exampler',
   templateUrl: 'exampler.html',
@@ -35,6 +34,11 @@ export class ExamplerPage {
         title: 'Select',
         icon:  'bluetooth',
         page:   SelectPage
+      },
+      {
+        title: 'Date Time',
+        icon:  'md-alarm',
+        page:   DateTimePage
       }
     ];
 

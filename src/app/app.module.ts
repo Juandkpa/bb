@@ -16,6 +16,7 @@ import { SplashScreen } from '@ionic-native/splash-screen'; //esta
 import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
 
 import { SelectPage } from '../pages/select/select';
+import { DateTimePage } from '../pages/date-time/date-time';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SelectPage } from '../pages/select/select';
     AlertPage,
     ActionSheetPage,
     GridPage,
-    SelectPage
+    SelectPage,
+    DateTimePage
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,8 @@ import { SelectPage } from '../pages/select/select';
     AlertPage,
     ActionSheetPage,
     GridPage,
-    SelectPage
+    SelectPage,
+    DateTimePage
   ],
   providers: [
     StatusBar,
