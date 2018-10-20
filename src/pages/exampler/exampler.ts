@@ -4,6 +4,7 @@ import { AlertPage } from '../alert/alert';
 import { ActionSheetPage } from '../action-sheet/action-sheet';
 import { GridPage } from '../grid/grid';
 import { SelectPage } from '../select/select';
+import { SlidePage } from '../slide/slide';
 
 
 @Component({
@@ -34,7 +35,11 @@ export class ExamplerPage {
       {
         title: 'Select',
         icon:  'bluetooth',
-        page:   SelectPage
+        page:   SelectPage 
+      },
+      {  title: 'Slides',
+        icon:  'heart',
+        page:   SlidePage
       }
     ];
 

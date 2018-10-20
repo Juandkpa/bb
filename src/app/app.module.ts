@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ErrorHandler } from '@angular/core';
-import { IonicApp, IonicModule, IonicErrorHandler, ActionSheetController } from 'ionic-angular'; //esta
+
+import { IonicApp, IonicModule, IonicErrorHandler, ActionSheetController, Slide } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
@@ -10,6 +11,7 @@ import { ListPage } from '../pages/list/list';
 import { ExamplerPage } from '../pages/exampler/exampler'; 
 import { AlertPage } from '../pages/alert/alert';
 import { GridPage } from '../pages/grid/grid';
+import { SlidePage }    from '../pages/slide/slide';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen'; //esta
@@ -27,7 +29,8 @@ import { SelectPage } from '../pages/select/select';
     AlertPage,
     ActionSheetPage,
     GridPage,
-    SelectPage
+    SelectPage,
+    SlidePage
   ],
   imports: [
     BrowserModule,
@@ -43,7 +46,8 @@ import { SelectPage } from '../pages/select/select';
     AlertPage,
     ActionSheetPage,
     GridPage,
-    SelectPage
+    SelectPage,
+    SlidePage
   ],
   providers: [
     StatusBar,
