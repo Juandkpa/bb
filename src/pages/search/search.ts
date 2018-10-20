@@ -30,7 +30,7 @@ export class SearchPage {
       this.items.push({
         title: 'Item ' + i,
         note: 'This is item #' + i,
-        icon: this.icons[Math.floor(Math.random() * this.icons.length)]
+        icon: this.icons[i]
       });
     }
   }
@@ -47,7 +47,7 @@ export class SearchPage {
       this.items.push({
         title: 'Item ' + i,
         note: 'This is item #' + i,
-        icon: this.icons[Math.floor(Math.random() * this.icons.length)]
+        icon: this.icons[i]
       });
     }
   }
