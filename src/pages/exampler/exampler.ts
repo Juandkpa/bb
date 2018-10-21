@@ -7,8 +7,8 @@ import { SelectPage } from '../select/select';
 import { SlidePage } from '../slide/slide';
 import { SeielPage } from '../seiel/seiel';
 import { TabsPage } from '../tabs/tabs';
-
 import { SearchPage} from '../search/search';
+import { CardsPage } from '../cards/cards';
 
 @Component({
   selector: 'page-exampler',
@@ -59,6 +59,11 @@ export class ExamplerPage {
         title: 'Seiel',
         icon:  'beer',
         page:   SeielPage
+      },
+      {
+        title: 'Cards',
+        icon:  'card',
+        page:   CardsPage
       }
     ];
 
