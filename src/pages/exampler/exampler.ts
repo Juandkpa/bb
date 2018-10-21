@@ -9,6 +9,7 @@ import { SeielPage } from '../seiel/seiel';
 import { TabsPage } from '../tabs/tabs';
 import { SearchPage} from '../search/search';
 import { CardsPage } from '../cards/cards';
+import { SegmentPage } from '../segment/segment';
 
 @Component({
   selector: 'page-exampler',
@@ -64,6 +65,11 @@ export class ExamplerPage {
         title: 'Cards',
         icon:  'card',
         page:   CardsPage
+      },
+      {
+        title: 'Segment',
+        icon:  'more',
+        page:   SegmentPage
       }
     ];
 

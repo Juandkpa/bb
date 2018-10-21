@@ -22,6 +22,8 @@ import { SeielPage } from '../pages/seiel/seiel';
 import { SelectPage } from '../pages/select/select';
 import { SearchPage } from '../pages/search/search';
 import { CardsPage } from '../pages/cards/cards';
+import { SegmentPage } from '../pages/segment/segment';
+
 
 @NgModule({
   declarations: [
@@ -45,7 +47,8 @@ import { CardsPage } from '../pages/cards/cards';
     Page3Page,
     SearchPage,
     SeielPage,
-    CardsPage
+    CardsPage,
+    SegmentPage
   ],
   imports: [
     BrowserModule,
@@ -73,7 +76,8 @@ import { CardsPage } from '../pages/cards/cards';
     Page3Page,
     SearchPage,
     SeielPage,
-    CardsPage
+    CardsPage,
+    SegmentPage
   ],
   providers: [
     StatusBar,
