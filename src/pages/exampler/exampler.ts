@@ -10,6 +10,7 @@ import { TabsPage } from '../tabs/tabs';
 import { SearchPage} from '../search/search';
 import { CardsPage } from '../cards/cards';
 import { SegmentPage } from '../segment/segment';
+import { DateTimePage } from '../date-time/date-time';
 
 @Component({
   selector: 'page-exampler',
@@ -69,7 +70,12 @@ export class ExamplerPage {
       {
         title: 'Segment',
         icon:  'more',
-        page:   SegmentPage
+        page:   SegmentPage        
+      },
+      {
+        title: 'Date Time',
+        icon:  'md-alarm',
+        page:   DateTimePage
       }
     ];
 

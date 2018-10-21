@@ -23,7 +23,7 @@ import { SelectPage } from '../pages/select/select';
 import { SearchPage } from '../pages/search/search';
 import { CardsPage } from '../pages/cards/cards';
 import { SegmentPage } from '../pages/segment/segment';
-
+import { DateTimePage } from '../pages/date-time/date-time';
 
 @NgModule({
   declarations: [
@@ -48,7 +48,8 @@ import { SegmentPage } from '../pages/segment/segment';
     SearchPage,
     SeielPage,
     CardsPage,
-    SegmentPage
+    SegmentPage,
+    DateTimePage
   ],
   imports: [
     BrowserModule,
@@ -77,7 +78,8 @@ import { SegmentPage } from '../pages/segment/segment';
     SearchPage,
     SeielPage,
     CardsPage,
-    SegmentPage
+    SegmentPage,
+    DateTimePage
   ],
   providers: [
     StatusBar,
